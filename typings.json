@@ -1,0 +1,10 @@
+{
+  "name": "request",
+  "main": "request.d.ts",
+  "dependencies": {
+    "form-data": "github:typings/typed-form-data#edc32200ec6065d98bfaa7ff9cfd104e17c5d3e4"
+  },
+  "ambientDependencies": {
+    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#aee0039a2d6686ec78352125010ebb38a7a7d743"
+  }
+}
