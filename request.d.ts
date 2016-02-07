@@ -1,6 +1,6 @@
 import stream = require('stream');
 import http = require('http');
-import FormData = require('form-data');
+import fd = require('form-data');
 import url = require('url');
 import fs = require('fs');
 
@@ -159,7 +159,7 @@ declare namespace request {
         setHeader(name: string, value: string, clobber?: boolean): Request;
         setHeaders(headers: Headers): Request;
         qs(q: Object, clobber?: boolean): Request;
-        form(): FormData.FormData;
+        form(): FormData;
         form(form: any): Request;
         multipart(multipart: RequestPart[]): Request;
         json(val: any): Request;
